@@ -14,7 +14,7 @@ So the idea is to use _Location Manager_ to provide the current location. Which 
  * Confirm all needed/used parts of this document
 
 == Feature Description ==
-The idea of the software is to monitor current location in the background. The software first version of the software will send a notifications to user about the current location, when the software detects that the current location is 100m to a waypoint.
+The idea of the software is to monitor current location in the background. The first version of the software will send a notifications to user about the current location, when the software detects that the current location is 100m to a waypoint.
 
 == Needed Permissions ==
  * android.permission.CALL_PHONE
