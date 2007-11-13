@@ -1,0 +1,53 @@
+#summary This page will contain my memos for the design
+#labels Phase-Design,Featured
+
+= Introduction =
+
+So the idea is to use _Location Manager_ to provide the current location. Which will be used to calculate if an event is to be raised.
+
+
+= The first draft =
+
+== Notes ==
+ * All features are subject to change :)
+ * Remember to add support for i18N, take care of this at the detailed design
+ * Confirm all needed/used parts of this document
+
+== Feature Description ==
+The idea of the software is to monitor current location in the background. The software first version of the software will send a notifications to user about the current location, when the software detects that the current location is 100m to a waypoint.
+
+== Needed Permissions ==
+ * android.permission.CALL_PHONE
+ * android.permission.RAISED_THREAD_PRIORITY
+ * android.permission.SIGNAL_PERSISTENT_PROCESSES
+ * android.permission.SYSTEM_ALERT_WINDOW
+
+
+== Used Application Framework Components ==
+ * Location Manager
+ * Notification Manager
+ * XMPP Service
+ * View System
+ * Content Providers
+ * Resource Manager
+ * Activity Manager
+
+ 
+== Used Libraries ==
+ * Surface Manager
+ * SQLite
+ * Media Framework
+ * SGL
+
+
+== Used Applications ==
+ * Maps
+ * Phone
+ * Contacts
+ * Home
+
+
+== Used Hardware Features ==
+ * GPS
+ * GSM Telephony
+ * Bluetooth, EDGE, 3G, and WiFi
