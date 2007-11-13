@@ -45,6 +45,7 @@ The idea of the software is to monitor current location in the background. The s
  * Phone
  * Contacts
  * Home
+ * Calendar
 
 
 == Used Hardware Features ==
