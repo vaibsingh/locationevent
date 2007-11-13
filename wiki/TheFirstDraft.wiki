@@ -18,7 +18,6 @@ The idea of the software is to monitor current location in the background. The f
 
 == Needed Permissions ==
  * android.permission.CALL_PHONE
- * android.permission.RAISED_THREAD_PRIORITY
  * android.permission.SIGNAL_PERSISTENT_PROCESSES
  * android.permission.SYSTEM_ALERT_WINDOW
 
